@@ -73,7 +73,6 @@ nav span{
 }
 .featured-tea span{
   display: block;
-  padding: 5px;
   font-weight: bold;
 }
 #locations{
@@ -82,7 +81,7 @@ nav span{
   height: 500px;
 }
 .location{
-  width: 300px;
+  flex-basis: 300px;
   margin: 20px;
   background: #000;
   opacity: 1;
